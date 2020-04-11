@@ -1,0 +1,7 @@
+VRF Name,BGP AS,RD,IP summary,Block list
+MAG1,65101,1,10.101.0.0/16,"[WAN,T3]"
+MAG2,65102,2,10.102.0.0/16,"[WAN,T3]"
+MAG3,65103,3,10.103.0.0/16,"[WAN,T3]"
+Tenant1,65201,1,10.201.0.0/16,"[Tenant, T3]"
+Tenant2,65202,2,10.202.0.0/16,"[Tenant, T3]"
+Tenant3,65203,3,10.203.0.0/16,"[Tenant, T3]"

@@ -1,0 +1,11 @@
+Hostname,Model,Serial Number,MAG Role,Block,MPLS Role,Location,Loopback0,OOB interface,OOB address,OS,username,password,secret
+P1,L3Switch,,Core,AIRC,P,C200,172.28.0.1,Gi0/0,192.168.1.135,ios,*default*,*default*,*default*
+#P2,L3Switch,,Core,AIRC,P,C100,172.28.0.2,Gi0/0,192.168.1.133,ios,*default*,*default*,*default*
+#RR1,Router,,Route Reflector,AIRC,RR,C200,172.28.0.11,Gi0/0,192.168.1.160,ios,*default*,*default*,*default*
+#RR2,Router,,Route Reflector,AIRC,RR,C100,172.28.0.12,Gi0/0,192.168.1.161,ios,*default*,*default*,*default*
+#PE1,L3Switch,,Distribution,Campus1,PE,C200,172.28.22.2,Gi0/0,192.168.1.129,ios,*default*,*default*,*default*
+PE2,L3Switch,,Distribution,Campus1,PE,C100,172.28.22.3,Gi0/0,192.168.1.130,ios,*default*,*default*,*default*
+#PE3,L3Switch,,Distribution,Campus2,PE,C200,172.28.3.21,Gi0/0,192.168.1.134,ios,*default*,*default*,*default*
+#PE4,L3Switch,,Distribution,Campus2,PE,C100,172.28.3.22,Gi0/0,192.168.1.132,ios,*default*,*default*,*default*
+#SW1,Switch,,Access,Campus1,N/A,C200,N/A,Gi0/0,dhcp,ios,*default*,*default*,*default*
+#SW2,Switch,,Access,Campus2,N/A,C100,N/A,Gi0/0,dhcp,ios,*default*,*default*,*default*

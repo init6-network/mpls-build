@@ -1,0 +1,7 @@
+Node A,Int A,Port-channel,Trunk,Node B,Int B,Port-channel,Speed,Medium
+PE1,Gi0/3,1,1000-1999,PE2,Gi0/3,1,1,Virtual
+PE1,Gi0/4,10,1000-1999,SW1,Gi0/0,10,1,Virtual
+PE2,Gi0/4,11,1000-1999,SW1,Gi0/1,11,1,Virtual
+PE3,Gi0/3,1,2000-2999,PE4,Gi0/3,1,1,Virtual
+PE3,Gi0/4,10,2000-2999,SW2,Gi0/0,10,1,Virtual
+PE4,Gi0/4,11,2000-2999,SW2,Gi0/1,11,1,Virtual
